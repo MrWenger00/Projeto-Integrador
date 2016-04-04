@@ -55,15 +55,15 @@ public class ProjetoIntegrador {
 	//adciona os labels e exibe a janela
 	static void MostrarJanela(){			        	        
 		IniciarComponentes();
-        janela.add(label);//adciona imagem ao como plano de fundo
-        label.add(label1);  
-        label.add(barra);
-        label.add(msg);
-        label.add(titulo);
-        label.add(alvo);
+        	janela.add(label);//adciona imagem ao como plano de fundo
+        	label.add(label1);  
+        	label.add(barra);
+        	label.add(msg);
+        	label.add(titulo);
+        	label.add(alvo);
         
-        janela.getContentPane().setBackground(Color.BLACK); 
-        janela.setVisible(true);
+        	janela.getContentPane().setBackground(Color.BLACK); 
+        	janela.setVisible(true);
 	}
 	/*Função que cria os objetos do jogo 
 	 * */
