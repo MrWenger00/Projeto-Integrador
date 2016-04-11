@@ -61,7 +61,7 @@ public class ProjetoIntegrador {
         label.add(msg);
         label.add(titulo);
         label.add(alvo);
-        
+        label.add(explosao);
         janela.getContentPane().setBackground(Color.BLACK); 
         janela.setVisible(true);
 	}
@@ -104,7 +104,7 @@ public class ProjetoIntegrador {
 		explosao = new JLabel(boom);
 		explosao.setBounds(70, 250, 200, 200);
 		explosao.setVisible(false);
-		label.add(explosao);
+		
 		
 	}
 	//faz o movimento da barra de força
