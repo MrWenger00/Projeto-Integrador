@@ -192,7 +192,7 @@ public class ProjetoIntegrador {
 			teclado.setIcon(fimTutorial);
 			ajuda.setText("<font color=" + "red>" + "<font size =" + "12>" + "<b>Agora é só ver o resultado</b></font>"
 					+ "<br><br><font color =" + "blue" + "><font size =" + "9>" + "<b>Vamos festejar! Ou talvez chorar.</b><br></font>"
-					+ "<br>" + "<font color =" + "blue"
+					+ "" + "<font color =" + "blue"
 					+ "><b>Mas tenho certeza que com essas dicas você conseguirá salvar o ninho sem maiores problemas!! <br>"
 					+ "<br>"
 					+ "Equipe de desenvolvimento<font color ="
